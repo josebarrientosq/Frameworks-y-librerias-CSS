@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <!--Importar la fuente de los íconos de Google-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Importar la hojas de estilos de materialize css-->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <title>blog de turismo</title>
+</head>
+<body>
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  <div class="row">
+  	<div class="col l12 blue lighten" id="barra-superior">
+  		<div class="l3 s6 col contenedor-logo-buscar">
+  		 	<img class="responsive-img" src="img/logo.png" alt="ShareUrCode" class="logo"/>
+  		</div>
+  	
+	  	<div class=" col l7 contenedor-botones hide-on-small-only">
+	  		
+		  		<a class="waves-effect waves-light btn s1 "><i class="material-icons left">home</i>inicio</a>
+		  		<a class=" waves-effect waves-light btn "><i class="material-icons left">cloud</i>estuve en </a>
+		  		<a class=" waves-effect waves-light btn s1"><i class="material-icons left">flight</i>mejores viajes</a>
+			
+	    </div>
+	    <div class=" col s6 contenedor-botones hide-on-med-and-up">
+	  		
+		  		<a class="waves-effect waves-light btn s1 "><i class="material-icons left">home</i></a>
+		  		<a class=" waves-effect waves-light btn "><i class="material-icons left">cloud</i></a>
+		  		<a class=" waves-effect waves-light btn s1"><i class="material-icons left">flight</i></a>
+			
+	    </div>
+		 
+
+	    <div class="col l7 " id="titulo">
+	    	<h1>Bitacora de viajes</h1>
+	    </div> 
+    </div>
+  </div>
+
+  <div class="row">
+  	<div class="col l1 barra-redes-sociales hide-on-small-only"> 
+  		<div class="collection">
+	  		<a class="collection-item avatar">
+	        	<img src="img/facebook.png" alt="" class="circle">
+	        </a>
+	        <a class="collection-item avatar">
+	        	<img src="img/twitter.png" alt="" class="circle">
+	        </a>
+	        <a class="collection-item avatar">
+	        	<img src="img/instagram.png" alt="" class="circle">
+	        </a>
+	        <a class="collection-item avatar">
+	        	<img src="img/pinterest.png" alt="" class="circle">
+	        </a>
+	        <a class="collection-item avatar">
+	        	<img src="img/youtube.png" alt="" class="circle">
+	        </a>
+	        
+  		</div>
+
+  	</div>
+
+  	<div class="col l4">
+  		<img src="img/viaje1.jpg" alt="" class="responsive-img">
+  		<img src="img/viaje2.jpg" alt="" class="responsive-img">
+  	</div>
+  	<div class="col l3">
+  		<img src="img/viaje3.jpg" alt="" class="responsive-img">
+  	</div>
+  	<div class="col l4">
+  		<img src="img/viaje4.jpg" alt="" class="responsive-img">
+  		<img src="img/viaje5.jpg" alt="" class="responsive-img">
+  	</div>
+
+  </div>
+
+  <div class="row">
+  		<div class="col l9" id="publicaciones">
+  			<h2>titulo</h2>
+  			<div class="chip">
+  				05 de enero 2018
+  				<i class="material-icons right">event</i>
+  			</div>
+  			<div class="chip">
+  				lugar del evento
+  				<i class="material-icons right">landscape</i>
+  			</div>
+  			<div class="col l3">
+  				<img class="responsive-img" src="img/churin.jpg">
+  			</div>
+  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras euismod lobortis odio et ultrices. Aliquam sed sollicitudin eros. 
+  			<p>Morbi auctor vestibulum nulla, sit amet fringilla nunc lobortis sed. Suspendisse a ligula vel lectus sollicitudin tempus a eu lacus. Maecenas aliquet efficitur est, sit amet facilisis purus mollis vitae. Mauris mattis lectus in mauris lobortis, quis congue nunc ornare. Phasellus felis ex, dictum vel tellus in, egestas sagittis ex. Suspendisse vulputate rutrum sapien, eu tincidunt lacus accumsan vel. Morbi vitae turpis ut justo sagittis eleifend quis non tellus.
+
+  			<div class="card blue lighten-4" >
+
+	  			<div class="card-content">
+
+
+	              <span>Escribe una nueva publicación</span>
+	              <form>
+	                <div class="input-field col l6">
+			          <i class="material-icons prefix">account_circle</i>
+			          <input type="text" class="validate">
+			          <label for="icon_prefix">nombre</label>
+			        </div>
+			        <div class="input-field col l6">
+			          <i class="material-icons prefix">contact_mail</i>
+			          <input type="email" class="validate">
+			          <label for="icon_prefix">correo</label>
+			        </div>
+			        
+			       	<div class="input-field col l12">
+			       		<i class="material-icons prefix">comment</i>
+          				<textarea id="textarea1" class="materialize-textarea"></textarea>
+          				<label for="textarea1">escribe un comentario</label>
+        			</div>
+			    	<div class="row">
+	                	<button class="btn-flat waves-effect waves-light blue-grey white-text right hide-on-small-only" type="submit" name="action"><i class="material-icons right">send</i></button>
+	          		</div>
+			    	</form>
+	          	</div>
+	              
+	         </div>
+
+
+  		</div>
+  		<div class="col l3" id="contenedor-perfil" >
+  			<div class="row" id="perfil-autor">
+	  			<div class="row">
+		  			<div class="col l6 offset-l3">
+		  				<img class="responsive-img circle" src="img/perfil.jpg">
+		  			</div>
+		  		</div>
+	  			<div class="valign-wrapper">
+	  				<h5 class="valign center-align" id="titulo-perfil">Perfil del autor</h5>
+
+
+	  			</div>
+	  			<div class="valign-wrapper" id="sobre-mi">
+	  				<p class="valign center-align" >Vestibulum iaculis arcu venenatis efficitur pretium. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean quis arcu in augue lacinia vulputate at eu ante. Suspendisse potenti. Nulla facilisi. Suspendisse potenti. Pellentesque non ligula quis ex tristique ultricies. Aenean at ligula lobortis, mattis erat sed, lacinia nibh. Duis eget ante nisl. In ut vulputate libero. Phasellus vitae rhoncus justo, ut sollicitudin leo. Ut scelerisque faucibus quam sit amet suscipit.</p>
+	  			</div>
+	  		</div>
+  		</div>
+
+  </div>
+
+
+</body>
+</html>
